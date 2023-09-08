@@ -10,7 +10,7 @@ let lang = getLang()
 inrl({
     pattern: 'list',
     desc: lang.LIST.DESC,
-    react: "💯",
+    react: "👨‍🦽",
     type: 'info'
 }, async (message) => {
     let b=1,c="";commands.map((e=>{e.pattern&&e.desc?c+=`${b++} *${e.pattern.replace(/[^a-zA-Z0-9,-]/g,"")}*\n_${e.desc}_\n\n`:c+=`${b++} *${e.pattern?e.pattern.replace(/[^a-zA-Z0-9,-]/g,""):''}*\n`}));
@@ -20,7 +20,7 @@ inrl({
 inrl({
     pattern: "menu",
     desc: lang.MENU.DESC,
-    react: "📰",
+    react: "🗿",
     type: 'whatsapp'
 }, async (message, match, data) => {
     return await send_menu(message, data);
@@ -29,7 +29,7 @@ inrl({
 inrl({
     pattern: "alive",
     desc: lang.ALIVE.DESC,
-    react: "🥰",
+    react: "🙈",
     type: 'info',
     usage:lang.ALIVE.HELP
 }, async (message, match, data) => {
