@@ -11,7 +11,7 @@ inrl(
   {
     pattern: "sticker",
     desc: lang.STICKER.DESC,
-    react: "🔁",
+    react: "🔜",
     type : 'converter',
     usage : "to convert short video or image to sticker fromate, ex:- sticker[repleyed_msg]"
   },
